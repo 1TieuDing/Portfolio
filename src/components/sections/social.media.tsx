@@ -1,7 +1,10 @@
 import { FaGithub } from "react-icons/fa6";
-import { SiYoutubeshorts } from "react-icons/si";
 
-const SocialMedia = (props) => {
+interface IProps {
+    github: string
+}
+
+const SocialMedia = (props: IProps) => {
     const { github } = props;
 
     return (
