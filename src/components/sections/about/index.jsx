@@ -66,15 +66,15 @@ const About = () => {
                                 <div className="p-3 relative">
                                     <div className="experience-container">
                                         <div className="duration-text">
-                                            <p>20xx-20xx</p>
+                                            <p>2021-2025</p>
                                         </div>
                                         <div className="details">
                                             <div className="icon">
                                                 <FaGraduationCap size={36} />
                                             </div>
                                             <div className="info">
-                                                <p className="title">Softwaren Engineer</p>
-                                                <p className="company">Hanoi University of Science and Technology (HUST)</p>
+                                                <p className="title">Information system</p>
+                                                <p className="company">University of Transport Technology (UTT)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -88,12 +88,9 @@ const About = () => {
             <Divider />
             <Row>
                 <Col md={6} xs={12} className=" mt-md-5 mt-3">
-                    <h3 className="mb-md-5 mb-2">FIND ME ON </h3>
+                    <h3 className="mb-md-5 mb-2">SHOW ME ON </h3>
                     <SocialMedia
-                        youtube={APP_DATA.YOUTUBE_URL}
-                        facebook={APP_DATA.FACEBOOK_URL}
-                        tiktok={APP_DATA.TIKTOK_URL}
-                        udemy={APP_DATA.UDEMY_URL}
+                        github={APP_DATA.GITHUB_URL}
                     />
                 </Col >
                 <Col md={6} xs={12} className="d-flex flex-column align-items-center justify-content-center">
@@ -103,7 +100,7 @@ const About = () => {
                         // https://github.com/airbnb/lottie-web/issues/2070
                         animationPath={JSON.parse(CONTACT_LOTTIE)}
                     />
-                    <h4 className="text-center">Contact me</h4>
+                    <h6 className="text-center">Contact me: vtuananhh@gmail.com</h6>
                 </Col>
             </Row>
             <div className="mb-5"></div>
