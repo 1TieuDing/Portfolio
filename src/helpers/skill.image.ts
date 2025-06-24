@@ -72,6 +72,7 @@ import vuetifyjs from 'assets/svg/skills/vuetifyjs.svg';
 import webix from 'assets/svg/skills/webix.svg';
 import wolframalpha from 'assets/svg/skills/wolframalpha.svg';
 import wordpress from 'assets/svg/skills/wordpress.svg';
+import antdesign from 'assets/svg/skills/antdesign.svg';
 
 
 export const skillsImage = (skill: string) => {
@@ -225,6 +226,8 @@ export const skillsImage = (skill: string) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'antdesign':
+            return antdesign;
         default:
             break;
     }
