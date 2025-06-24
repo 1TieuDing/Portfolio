@@ -33,7 +33,7 @@ const HeroRight = () => {
                         <span>{"', '"}</span>
                         <span >NextJS</span>
                         <span>{"', '"}</span>
-                        <span >SQL</span>
+                        <span >MongoDB</span>
                         <span>{"'],"}</span>
                     </div>
                     <div>
