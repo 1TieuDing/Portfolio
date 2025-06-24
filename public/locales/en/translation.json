@@ -1,23 +1,21 @@
 {
     "appHeader": {
-        "brand": "Hoi Dan IT",
+        "brand": "TieuDing",
         "home": "Home",
         "project": "Project",
         "contact": "Contact",
         "about": "About"
     },
     "heroSection": {
-        "exp": "My Skill",
-        "cv": "Get Resume"
+        "exp": "My Skill"
     },
     "introSection": {
         "about": "About me",
         "and": "and",
         "heading1": "I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️",
-        "heading2": "I am fluent in classics like",
+        "heading2": "I have been studying",
         "heading3": "My field of Interest's are building new",
-        "heading4": "Web Technologies and Products",
-        "heading5": "Whenever possible, I also apply my passion for developing products with"
+        "heading4": "Web Technologies and Products"
     },
     "experience": {
         "title": "Experiences"

@@ -2,9 +2,9 @@
 const AppFooter = () => {
     return (
         <div className="text-center my-3">
-            Copyright © {new Date().getFullYear()} TieuDing <span style={{
+            TieuDing <span style={{
                 color: "#e25555"
-            }}>♥</span> in VietNam
+            }}>♥</span>
         </div>
     )
 }

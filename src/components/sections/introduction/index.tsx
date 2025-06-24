@@ -26,9 +26,7 @@ const Introduction = () => {
                         {t("introSection.heading1")}
                         <br />
                         <br />{t("introSection.heading2")}
-                        <i>
-                            <b className='text-pink-100'> Java {t("introSection.and")} Javascript. </b>
-                        </i>
+                        <b className='text-pink-100'> ReactJS {t("introSection.and")} NodeJS. </b>
                         <br />
                         <br />
                         {t("introSection.heading3")} &nbsp;
@@ -38,16 +36,6 @@ const Introduction = () => {
                             </b>
                         </i>
                         <br />
-                        <br />
-                        {t("introSection.heading5")}
-                        <i><b className='text-pink-100'>&nbsp;Java Spring</b> </i>
-                        {t("introSection.and")}
-                        <i>
-                            <b className='text-pink-100'>
-                                {" "}
-                                Node.js
-                            </b>
-                        </i>
 
                     </p>
                 </Col>

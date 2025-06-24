@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import './hero.scss';
 import ResizeButton from "components/sections/resize.button";
 import { APP_DATA } from 'helpers/data';
-import { AiFillFire } from "react-icons/ai";
+import { MdWorkHistory } from "react-icons/md";
 
 interface IProps {
     scrollToExperienceSection: () => void;
@@ -12,27 +12,42 @@ interface IProps {
 
 const HeroLeft = (props: IProps) => {
 
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
 
     return (
         <div className='hero-left'>
-            <h3>
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                    👋🏻
-                </span>
-            </h3>
-            <h3 style={{ paddingTop: 10, paddingBottom: 5 }}>
-                I'M &nbsp;
-                <strong className="brand-red">{t("appHeader.brand")}</strong>
-            </h3>
+            {i18n.resolvedLanguage === "en" ? <>
+                <h3>
+                    Hi There!{" "}
+                    <span className="wave" role="img" aria-labelledby="wave">
+                        👋🏻
+                    </span>
+                </h3>
+                <h3 style={{ paddingTop: 10, paddingBottom: 5 }}>
+                    I'M &nbsp;
+                    <strong className="brand-red">{t("appHeader.brand")}</strong>
+                </h3>
+            </>
+                :
+                <>
+                    <h3>
+                        Một ngày tốt lành!{" "}
+                        <span className="wave" role="img" aria-labelledby="wave">
+                            👋🏻
+                        </span>
+                    </h3>
+                    <h3 style={{ paddingTop: 10, paddingBottom: 5 }}>
+                        Tôi là &nbsp;
+                        <strong className="brand-red">{t("appHeader.brand")}</strong>
+                    </h3>
+                </>
+            }
+
             <Typewriter
                 options={{
                     strings: [
-                        "Software Developer",
                         "Freelancer",
                         "MERN Stack Developer",
-                        "Open Source Contributor",
                     ],
                     autoStart: true,
                     loop: true,
@@ -52,7 +67,8 @@ const HeroLeft = (props: IProps) => {
                 <ResizeButton
                     onClick={props.scrollToExperienceSection}
                     btnText={t("heroSection.exp")}
-                    btnIcons={<AiFillFire style={{ color: "orange" }} />}
+
+                    btnIcons={<MdWorkHistory style={{ color: "ghostwhite" }} />}
                     btnStyle={{
                         background: "unset",
                         border: "1px solid var(--border-hero-right)",

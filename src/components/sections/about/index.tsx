@@ -15,24 +15,21 @@ const About = () => {
         <>
             <Row>
                 <Col md={6} xs={12}>
-                    <h3 className="text-center mb-md-5 mb-2">Know Who <span className="brand-red">I'M</span> </h3>
+                    <h3 className="text-center mb-md-5 mb-2"><span className="brand-red">XIN CHÀO!!!</span> </h3>
                     <div>
                         <div>
-                            <p> Hi Everyone, I am HoiDanIT from Hanoi, VietNam.</p>
+                            <p> Tôi là Tuấn Anh.</p>
 
-                            <p> I am currently employed as a a freelance dev (start-up).</p>
-
-                            <p> I have completed Bachelor's degree in Software Engineer at Hanoi University of Science and Technology (HUST).</p>
+                            <p> Tôi đã hoàn thành bằng kỹ sư hệ thống thông tin tại Đại học Công Nghệ Giao Thông Vận Tải (UTT).</p>
                         </div>
                     </div>
                     <div>
-                        <p>Apart from coding, some other activities that I love to do!
+                        <p>Sở thích:
 
                         </p>
                         <ul>
-                            <li>Playing Games</li>
-                            <li>Writing Tech Blogs</li>
-                            <li>Travelling</li>
+                            <li>Cờ vua</li>
+                            <li>Bóng đá</li>
                         </ul>
                     </div>
                     <div>
@@ -60,7 +57,7 @@ const About = () => {
                 </Col>
                 <Col md={6} xs={12} className="mt-md-5 mt-3">
                     <div className="d-flex flex-column align-items-center gap-3">
-                        <div><h4 className="text-center brand-red">Education</h4></div>
+                        <div><h4 className="text-center brand-red">Học vấn</h4></div>
                         <div >
                             <GlowCard identifier={`experience-5`}>
                                 <div className="p-3 relative">
@@ -73,8 +70,8 @@ const About = () => {
                                                 <FaGraduationCap size={36} />
                                             </div>
                                             <div className="info">
-                                                <p className="title">Information system</p>
-                                                <p className="company">University of Transport Technology (UTT)</p>
+                                                <p className="title">Hệ thống thông tin</p>
+                                                <p className="company">Đại học Công Nghệ Giao Thông Vận Tải (UTT)</p>
                                             </div>
                                         </div>
                                     </div>
@@ -88,7 +85,7 @@ const About = () => {
             <Divider />
             <Row>
                 <Col md={6} xs={12} className=" mt-md-5 mt-3">
-                    <h3 className="mb-md-5 mb-2">SHOW ME ON </h3>
+                    <h3 className="mb-md-5 mb-2">Hãy xem qua </h3>
                     <SocialMedia
                         github={APP_DATA.GITHUB_URL}
                     />
@@ -100,7 +97,7 @@ const About = () => {
                         // https://github.com/airbnb/lottie-web/issues/2070
                         animationPath={JSON.parse(CONTACT_LOTTIE)}
                     />
-                    <h6 className="text-center">Contact me: vtuananhh@gmail.com</h6>
+                    <h6 className="text-center">Kết nối : vtuananhh@gmail.com</h6>
                 </Col>
             </Row>
             <div className="mb-5"></div>
