@@ -11,6 +11,7 @@ import { APP_DATA } from "helpers/data";
 import SocialMedia from "components/sections/social.media";
 
 const About = () => {
+
     return (
         <>
             <Row>

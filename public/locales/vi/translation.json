@@ -22,5 +22,13 @@
     },
     "skill": {
         "title": "Kỹ năng"
+    },
+    "about": {
+        "title": "XIN CHÀO!!!",
+        "heading1": "Tôi là Tuấn Anh",
+        "heading2": "Tôi đã hoàn thành bằng kỹ sư hệ thống thông tin tại Đại học Công Nghệ Giao Thông Vận Tải (UTT).",
+        "hobbies": "Sở thích",
+        "li1": "Cờ vua",
+        "li2": "Bóng đá"
     }
 }

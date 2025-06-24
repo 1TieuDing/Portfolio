@@ -22,5 +22,13 @@
     },
     "skill": {
         "title": "Skills"
+    },
+    "about": {
+        "title": "Have a good day!!!",
+        "heading1": "I'M Tuấn Anh",
+        "heading2": "I completed my degree in information systems engineering at the University of Transport Technology (UTT).",
+        "hobbies": "Hobbies",
+        "li1": "Chess",
+        "li2": "Football"
     }
 }
